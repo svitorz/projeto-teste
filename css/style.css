@@ -1,0 +1,7 @@
+nav .navbar .nav-item:hover {
+    border-bottom: 1px solid black;
+}
+nav .navbar-brand:hover {
+    border-top: 1px dotted black;
+    border-bottom: 1px dotted black;
+}

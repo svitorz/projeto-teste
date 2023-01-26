@@ -16,13 +16,14 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <!-- navbar -->
     <header>
       <nav class="navbar navbar-expand-sm bg-light border-bottom fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand"> helpMe </a>
+          <a href="#home" class="navbar-brand"> helpMe </a>
           <button
             class="navbar-toggler"
             type="button"
@@ -35,7 +36,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse pe-5" id="navbarSupportedContent">
             <ul class="nav navbar">
               <li class="nav-item">
                 <a href="#carrosel" class="nav-link text-dark">
@@ -48,9 +49,14 @@
                 </a>
               </li>
               <li class="nav-item">
+                <a href="#motivos" class="nav-link text-dark">
+                  POR QUE USAR helpMe?
+                </a>
+              </li>
+              <li class="nav-item">
                 <a href="#rodape" class="nav-link text-dark"> SAIBA MAIS </a>
               </li>
-            </ul>
+            </ul> 
           </div>
         </div>
       </nav>
@@ -90,7 +96,7 @@
             aria-label="Slide 4"
           ></button>
         </div>
-        <div class="carousel-inner" id="carrosel">
+        <div class="carousel-inner active" id="carrosel">
           <div class="carousel-item active">
             <img src="img/banner1.jpg" alt="" class="d-block w-100 h-100" />
           </div>
@@ -167,6 +173,26 @@
               officia reiciendis!
             </p>
             <a href="#" class="btn btn-primary">Conheça!</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- por que usar nosso site -->
+      <div class="container bg-light" id="motivos">
+        <div class="my-4 py-5">
+          <div class="py-3">
+            <div class="row">
+              <div class="col-6">
+            <h3 class="text-center"><span class="text-bg-success rounded" > Por que usar helpMe? </span> </h3>
+            <p class="text-bg-success rounded" style="text-align: justify;">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt eveniet, impedit fugit ratione ad facere sed repellendus. Veniam, nostrum. Deleniti odit repellat quasi non adipisci amet consectetur tempore optio atque.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum sapiente dignissimos mollitia ab aperiam, enim laboriosam assumenda commodi quam quae facere fuga ipsa dolores, doloribus facilis odio saepe, tenetur distinctio?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem sunt, sapiente recusandae voluptate animi ut eaque! Pariatur modi reiciendis corrupti, voluptatibus quibusdam ad, amet iure sunt at voluptas recusandae obcaecati. </p>
+          </div>
+          <div class="col-6">
+            <img src="img/generic.jpg" alt="" class="thubmnail w-75">
+          </div>
+          </div>
           </div>
         </div>
       </div>
