@@ -19,11 +19,17 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <!-- navbar -->
-    <header>
-      <nav class="navbar navbar-expand-sm bg-light border-bottom fixed-top">
+      <main>
+        <!-- apresentação -->
+        <div class="container-fluid bg-dark m-0" id="home">
+          <h1 class="text-center text-uppercase text-white pt-5"> helpMe </h1>
+          <p class="fs-4 p-5 text-white text-success"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ducimus, possimus molestias alias eius fugiat suscipit aut tenetur vero aperiam rerum omnis excepturi esse odio non aliquid praesentium? Quae, iusto?</p>
+        </div>
+        <!-- navbar -->
+      <nav class="navbar navbar-expand-sm bg-light border-bottom sticky-top m-0">
         <div class="container-fluid">
-          <span href="#home" class="navbar-brand"> helpMe </span>
+          <a href="#home" class="navbar-brand">
+             helpMe </a>
           <button
             class="navbar-toggler"
             type="button"
@@ -37,9 +43,9 @@
           </button>
 
           <div class="collapse navbar-collapse pe-5" id="navbarSupportedContent">
-            <ul class="nav navbar">
+            <ul class="nav navbar mx-auto">
               <li class="nav-item">
-                <a href="#carrosel" class="nav-link text-dark">
+                <a href="#carrosel" class="nav-link active text-dark">
                   NOSSOS PRODUTOS
                 </a>
               </li>
@@ -60,8 +66,6 @@
           </div>
         </div>
       </nav>
-    </header>
-    <main>
       <!-- carousel -->
       <div
         id="carouselExampleIndicators"
