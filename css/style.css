@@ -1,8 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Playfair+Display:ital,wght@1,500&family=Roboto+Mono&family=Ubuntu:ital@1&display=swap');
 
 nav .navbar .nav-item:hover {
-    border-bottom: 1px solid black;
+    background: #e1e1e1;
+    border-top: 1px solid #d0d0d0;
 }
+
+nav .navbar {
+    height: 4em;
+}
+
+.carousel-inner {
+    height: 38rem;
+}
+
 h1 {
     font-family: 'Roboto Mono', monospace;
 }
@@ -25,3 +35,4 @@ h3 {
     h2 {
         font-family: 'Roboto Mono',monospace;
     }
+
