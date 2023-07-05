@@ -1,31 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-br" data-bs-theme="light">
-
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>helpMe</title>
+  <title>Lis Representações</title>
   <!-- BOOTSTRAPICONS -->
   <link rel="stylesheet" href="/css/bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css"/>
   <link rel="stylesheet" href="css/style.css">
-  <!-- DARK/LIGHT MODE -->
-  <script src="js/switch.js"></script>
+  <script src="js/script.js"></script>
 </head>
 
 <body>
   <main>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-sm bg-light border-bottom">
+    <nav class="navbar navbar-expand-sm bg-light border-bottom fixed-top">
       <div class="container-fluid">
         <a href="#home" class="navbar-brand text-primary">
-          helpMe </a>
+          Lis Representações </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse pe-5" id="navbarSupportedContent">
-          <ul class="nav navbar mx-auto">
+          <ul class="nav navbar">
             <li class="nav-item">
               <a href="#carrosel" class="nav-link active text-primary fs-5">
                 NOSSOS PRODUTOS
@@ -37,11 +35,6 @@
               </a>
             </li>
             <li class="nav-item">
-              <a href="#motivos" class="nav-link text-primary fs-5">
-                POR QUE USAR helpMe?
-              </a>
-            </li>
-            <li class="nav-item">
               <a href="#rodape" class="nav-link text-primary fs-5"> SAIBA MAIS </a>
             </li>
           </ul>
@@ -50,13 +43,16 @@
     </nav>
 
     <!-- apresentação -->
-    <div class="container-fluid bg-light" id="home">
+    <header>
+    <div class="container-fluid bg-light p-5" id="home">
       <h1 class="text-center text-uppercase text-primary pt-5"> helpMe </h1>
       <p class="fs-4 p-5 text-secondary m-0"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
         ducimus, possimus molestias alias eius fugiat suscipit aut tenetur vero aperiam rerum omnis excepturi esse odio
         non aliquid praesentium? Quae, iusto?</p>
     </div>
+   </header>
     <!-- carousel -->
+    <section>
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -93,8 +89,9 @@
         <span class="visually-hidden">próximo</span>
       </button>
     </div>
+  </section>
     <!-- cards de apresetação -->
-    <div class="container bg-light w-100 py-lg-5" id="cartoes">
+    <div class="container bg-light w-100 p-5" id="cartoes">
       <h2>Lorem Ipsum</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi iusto
